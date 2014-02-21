@@ -1,0 +1,57 @@
+LRS: 
+
+Christoph Eck, D311
+christoph.eck@hslu.ch
+intern 385
+
+Literatur: 
+==========
+
+"Einführung in die Regelungstechnik" 11. Auflage
+www.fh-muenchen.de/fb06/MSFRegelungstechnik
+Regelungstechnik 1
+
+RT-Buch
+Taschenbuch der Regelungstechnik
+
+Plan: 
+=====
+
+Erste 7 Wochen: 
+Do Mathematik
+Fr Regelungstechnik
+
+8. - 14. Woche
+Do Regelungstechnik
+Fr Regelungstechnik
+
+Testat: 
+=======
+
+Testat 1: 
+60 min -> 60 Punkte 
+Woche 8
+
+Testat 2: 
+120 min -> 120 Punkte
+Woche 12
+
+Testatbedingung: 90 Punkte von 180 Punkten
+
+MEP: 
+====
+
+240 min -> 240 Punkte
+120 Punkte +- 3 Punkte bestanden
+
+Erlaubte Hilfmittel: 
+ - Taschenrechner
+ - Ordner mit Unterlagen
+ - Buch
+
+Nachfolgemodule: 
+================
+LRS
+MRT+A
+MDS
+IDS
