@@ -6,7 +6,7 @@ Model {
     NumRootInports	    0
     NumRootOutports	    0
     ParameterArgumentNames  ""
-    ComputedModelVersion    "1.1"
+    ComputedModelVersion    "1.2"
     NumModelReferences	    0
     NumTestPointedSignals   0
   }
@@ -27,9 +27,9 @@ Model {
   ModifiedByFormat	  "%<Auto>"
   LastModifiedBy	  "Daniel"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Thu Mar 06 15:53:55 2014"
+  LastModifiedDate	  "Fri Mar 07 13:08:00 2014"
   RTWModifiedTimeStamp	  316021837
-  ModelVersionFormat	  "1.%<AutoIncrement:1>"
+  ModelVersionFormat	  "1.%<AutoIncrement:2>"
   ConfigurationManager	  "None"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
@@ -917,6 +917,8 @@ Model {
       Position		      [590, 155, 620, 185]
       ZOrder		      -2
       InitialCondition	      "phi0"
+      LimitOutput	      on
+      UpperSaturationLimit    "pi"
     }
     Block {
       BlockType		      Math
@@ -958,7 +960,7 @@ Model {
       ZOrder		      -3
       Floating		      off
       Location		      [1, 48, 1601, 837]
-      Open		      on
+      Open		      off
       NumInputPorts	      "1"
       List {
 	ListType		AxesTitles
