@@ -1,1 +1,6 @@
 *.autosave
+*.aux
+*.log
+*.out
+*.pdf
+
