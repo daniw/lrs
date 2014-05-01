@@ -4,4 +4,6 @@
 *.out
 *.pdf
 *.swp
+*.gnuplot
+*.table
 
