@@ -52,7 +52,31 @@ Polstellen:
 
 \subsubsection*{Berechnung und Skizze des Bode-Diagramms ($G(j\omega)$, $|G(j\omega)|_{dB}$, $arc(G(j\omega))$)}
 \[ K = 4 \Rightarrow 20 \cdot \log_{10}(4) = 12.04 \]
+\begin{figure}[h!]
+    \centering
+    \begin{tikzpicture}[xscale=0.2, yscale=0.04, domain=0:21]
+        \draw [->] (0,0) -- (21,0) node[below] {$\omega$};
+        \draw [->] (0,-60) -- (0,20) node[left] {$A$};
+    \end{tikzpicture}
+    \begin{tikzpicture}[xscale=0.2, yscale=0.02, domain=0:21]
+        \draw [->] (0,0) -- (21,0) node[below] {$\omega$};
+        \draw [->] (0,-180) -- (0,10) node[left] {$\varphi$};
+    \end{tikzpicture}
+\end{figure}
+
 \[ 3 s^2 + 2 s + 1 \]
+\begin{figure}[h!]
+    \centering
+    \begin{tikzpicture}[xscale=0.2, yscale=0.04, domain=0:21]
+        \draw [->] (0,0) -- (21,0) node[below] {$\omega$};
+        \draw [->] (0,-60) -- (0,20) node[left] {$A$};
+    \end{tikzpicture}
+    \begin{tikzpicture}[xscale=0.2, yscale=0.02, domain=0:21]
+        \draw [->] (0,0) -- (21,0) node[below] {$\omega$};
+        \draw [->] (0,-180) -- (0,10) node[left] {$\varphi$};
+    \end{tikzpicture}
+\end{figure}
+
 \begin{figure}[h!]
 \center
 \includegraphics[width=\textwidth]{bode.eps}
