@@ -35,7 +35,7 @@ Polstellen:
 \[ \frac{4}{3 s^2 + 2 s + 1} = G(s) = \frac{V(s)}{U(s)} \]
 \[ 4 U(s) = 3 s^2 V(s) + 2 s V(s) + V(s) \]
 \[ 4 u(t) = 3 \ddot{v}(t) + 2 \dot{v}(t) + v(t) \]
-\[ \frac{3}{4} \ddot{v}(t) + \frac{1}{2} \dot{v}(t) + v(t) = u(t) \]
+\[ \ddot{v}(t) + \frac{2}{3} \dot{v}(t) + \frac{1}{3} v(t) = \frac{4}{3} u(t) \]
 
 \subsubsection*{Berechnung der Einheitssprungantwort (Übertragungsfunktion) ($G(s)$, $H(s)$, $PBZ$, $L^-1$, $h(t)$, Skizze)}
 \[ Y(s) = \frac{4 \cdot G(s)}{3 s^2 + 2 s + 1} \]
@@ -100,7 +100,7 @@ Polstellen:
     \end{tikzpicture}
 \end{figure}
 
-\[ 3 s^2 + 2 s + 1 \]
+\[ \frac{1}{3 s^2 + 2 s + 1} \]
 \begin{figure}[h!]
     \centering
     \begin{tikzpicture}[xscale=0.1, yscale=0.02, domain=0:41]
@@ -152,6 +152,11 @@ Realteil:
 \[  \frac{-12 \omega^2 + 4}{9 \omega^4 - 2 \omega^2 + 1} \]
 Imaginärteil: 
 \[ - \frac{8 \omega}{9 \omega^4 - 2 \omega^2 + 1} \]
+$\omega = 0$:
+\[ \lim\limits_{\omega \to 0}\left(\frac{4}{3 (j \omega)^2 + 2 (j \omega) + 1}\right) = 4 \]
+$\omega = \infty$:
+\[ \lim\limits_{\omega \to \infty}\left(\frac{4}{3 (j \omega)^2 + 2 (j \omega) + 1}\right) = 0 \]
+
 \begin{figure}[h!]
 \center
 \includegraphics[width=\textwidth]{nyquist.eps}
